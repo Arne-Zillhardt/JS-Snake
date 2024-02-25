@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: #131516;*/
+    background-color: #181818;
+    color: white;
+}
+
+.snake-table {
+    border-color: white;
+    width: 80vw;
+    height: 70vh;
+    margin-bottom: 2vh;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.54), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
+td,
+th {
+    padding: 1px;
+}
+
+.cell {
+    background-color: #181818;
+    border-radius: 2px;
+}
+
+.reset-button {
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    width: 9vw;
+    height: 3vh;
+}
